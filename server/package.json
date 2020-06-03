@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ura": "nodemon setupUra.js",
+    "setup": "nodemon setup.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "nodemon": "^2.0.4",
     "socket.io": "^2.3.0"
   }
 }
